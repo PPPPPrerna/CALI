@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49194" started-at="2020-08-30T09:59:04Z" finished-at="2020-08-30T09:59:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49194" started-at="2020-08-30T09:59:04Z" finished-at="2020-08-30T09:59:53Z">
+      <class name="SpiceTest.SpiceJet.SpTest">
+        <test-method status="PASS" signature="inilialize()[pri:0, instance:SpiceTest.SpiceJet.SpTest@5db6b9cd]" name="inilialize" is-config="true" duration-ms="11406" started-at="2020-08-30T15:29:04Z" finished-at="2020-08-30T15:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inilialize -->
+        <test-method status="PASS" signature="cases(java.lang.String)[pri:0, instance:SpiceTest.SpiceJet.SpTest@5db6b9cd]" name="cases" duration-ms="37385" started-at="2020-08-30T15:29:16Z" finished-at="2020-08-30T15:29:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cases -->
+      </class> <!-- SpiceTest.SpiceJet.SpTest -->
+      <class name="SpiceTest.SpiceJet.ClassTest">
+        <test-method status="FAIL" signature="cool()[pri:0, instance:SpiceTest.SpiceJet.ClassTest@210ab13f]" name="cool" duration-ms="4" started-at="2020-08-30T15:29:53Z" finished-at="2020-08-30T15:29:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at SpiceTest.SpiceJet.ClassTest.cool(ClassTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cool -->
+      </class> <!-- SpiceTest.SpiceJet.ClassTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
