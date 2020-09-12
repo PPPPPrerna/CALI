@@ -23,6 +23,7 @@ public class ClassTest {
 		
 		f1.search().click();
 		
+		System.out.println("Prerna");
 		f1.alert();
 
 		
