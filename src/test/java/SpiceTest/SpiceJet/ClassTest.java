@@ -24,6 +24,11 @@ public class ClassTest {
 		f1.search().click();
 		
 		System.out.println("Prerna");
+		System.out.print("development");
+		
+		System.out.print("a");
+		System.out.print("b");
+		System.out.print("c");
 		f1.alert();
 
 		
